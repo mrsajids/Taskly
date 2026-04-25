@@ -6,6 +6,7 @@ const Form = ({onSubmit }:any) => {
         e.preventDefault();
         // log data to console
         onSubmit(text)
+        setText('');
     }
     return (
         <>
