@@ -40,11 +40,11 @@
 .todo-header h1 {
   color: var(--text-h);
   font-size: 2.5rem;
-  margin: 0 0 10px 0;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent) 100%);
+  margin: 0 0 14px 0;
+  /* background: linear-gradient(135deg, var(--accent) 0%, var(--accent) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  background-clip: text; */
 }
 
 .todo-header p {
