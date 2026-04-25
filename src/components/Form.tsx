@@ -5,12 +5,14 @@ const Form = ({onSubmit }:any) => {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         // log data to console
-        onSubmit(text)
-        setText('');
+        if (text.trim()) {
+             onSubmit(text)
+             setText('');
+        }
     }
     return (
         <>
-            <form onSubmit={handleSubmit}>
+            <form className="todo-form" onSubmit={handleSubmit}>
                 <input type="text" placeholder='Enter Task' value={text} onChange={(e) => setText(e.target.value)} />
                 <button type='submit'>Add Task</button>
             </form>
