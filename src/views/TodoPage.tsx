@@ -13,7 +13,6 @@ const TodoPage = () => {
     return (
         <>
             <Navbar />
-            <ThemeToggle />
             <div className="todo-container">
                 <div className="todo-wrapper">
                     <div className="todo-header">

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/navbar.css'
+import ThemeToggle from './ThemeToggle'
 
 const Navbar = () => {
     return (
@@ -13,6 +14,9 @@ const Navbar = () => {
                     <li><a href="#home" className="nav-link active">Home</a></li>
                     <li><a href="#tasks" className="nav-link">Tasks</a></li>
                     <li><a href="#about" className="nav-link">About</a></li>
+                    <li>  <ThemeToggle /></li>
+                              
+
                 </ul>
             </div>
         </nav>

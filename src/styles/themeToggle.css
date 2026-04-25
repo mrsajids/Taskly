@@ -1,5 +1,5 @@
 .theme-toggle {
-  position: fixed;
+  /* position: relative; */
   top: 88px;
   right: 20px;
   width: 48px;
